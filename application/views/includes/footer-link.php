@@ -35,8 +35,3 @@
 
     <!-- template js -->
     <script src="assets/js/script.js"></script>
-</body>
-
-
-<!-- Mirrored from dreamlayout.mnsithub.com/html/servixa/main-html/index-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Dec 2025 08:04:29 GMT -->
-</html>

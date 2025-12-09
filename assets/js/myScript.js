@@ -242,3 +242,26 @@ const buttons = document.querySelectorAll('.tab-btn-1');
         });
     });
 
+// search bar
+// Select elements
+const openBtn = document.getElementById('openSearch');
+const closeBtn = document.getElementById('closeSearch');
+const popup = document.getElementById('popupSearch');
+const overlay = document.getElementById('searchOverlay');
+
+// Open popup
+openBtn.addEventListener('click', () => {
+    popup.style.display = 'flex';
+    overlay.style.display = 'block';
+});
+
+// Close popup
+closeBtn.addEventListener('click', () => {
+    popup.style.display = 'none';
+    overlay.style.display = 'none';
+});
+
+overlay.addEventListener('click', () => {
+    popup.style.display = 'none';
+    overlay.style.display = 'none';
+});

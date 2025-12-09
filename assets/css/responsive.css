@@ -3343,6 +3343,10 @@
 
 
 @media only screen and (max-width: 440px) {
+    .main-slider {
+        padding-top: 80px;
+    }
+
     .testimonial-one__img {
         top: -25px;
         right: 40px;
@@ -3394,6 +3398,49 @@
 
 
 @media only screen and (max-width: 500px) {
+
+    /* nav */
+    .main-menu__right {
+        gap: 15px;
+    }
+
+    .main-menu__cart {
+        font-size: 20px;
+    }
+
+    .main-menu__search {
+        font-size: 20px;
+    }
+
+    .main-menu__cart-count {
+        top: -10px;
+        right: -11px;
+        height: 16px;
+        width: 16px;
+        font-size: 8px;
+    }
+
+    .thm-btn-1 {
+        font-size: 14px;
+        padding: 8px 9px;
+    }
+
+    .main-menu__nav-sidebar-icon .navSidebar-button {
+        width: 25px;
+    }
+
+    .icon-dots-menu-one {
+        width: 25px;
+    }
+
+    .icon-dots-menu-two {
+        width: 17px;
+    }
+
+    .icon-dots-menu-three {
+        width: 25px;
+    }
+
     .feature-one__single-inner {
         padding: 40px 15px 37px;
     }
@@ -3703,9 +3750,12 @@
         left: auto;
         right: 25px;
     }
-
+.main-slider__btn-and-review-box{
+     justify-content: center;
+}
     .main-slider__content {
-        padding-top: 268px;
+        padding-top: 170px;
+        text-align: center;
     }
 
 
@@ -3725,7 +3775,9 @@
         width: 420px;
     }
 
-
+.project-one {
+    padding: 0px 0 90px;
+}
 
 
 
@@ -3831,13 +3883,10 @@
     }
 
     .main-slider__content {
-        padding-top: 188px;
-        padding-bottom: 100px;
+        padding-top: 120px;
+        padding-bottom: 50px;
+        text-align: center;
     }
-
-
-
-
 
 
     .main-slider-two__img-box {
@@ -3892,10 +3941,6 @@
         padding-bottom: 100px;
     }
 
-
-
-
-
     .banner-one__shape-bg,
     .banner-one__shape-4 {
         display: none;
@@ -3939,20 +3984,10 @@
         padding: 188px 0 0px;
     }
 
-
-
-
-
-
-
-
-
-
+    .main-menu__search-cart-box {
+        display: block;
+    }
 }
-
-
-
-
 
 
 @media only screen and (max-width: 500px) {
@@ -3977,16 +4012,6 @@
         flex-direction: column;
         align-items: baseline;
     }
-
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -4113,14 +4138,6 @@
     .main-menu__call {
         display: none;
     }
-
-    .main-menu__search-cart-box {
-        display: none;
-    }
-
-
-
-
 
 
 
@@ -4363,9 +4380,9 @@
         display: none;
     }
 
-    .main-menu__right {
+    /* .main-menu__right {
         display: none;
-    }
+    } */
 
 
 

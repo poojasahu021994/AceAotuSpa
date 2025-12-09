@@ -18,7 +18,7 @@
                                         <a href="https://www.facebook.com/profile.php?id=61583894971964"><i class="icon-facebook-app-symbol"></i></a>
                                         <a href="#"><i class="icon-twitter"></i></a>
                                         <a href="#"><i class="icon-linkedin"></i></a>
-                                        <a href="https://www.instagram.com/aceauto2025/"><i class="icon-pinterest"></i></a>
+                                        <a href="https://www.instagram.com/aceauto2025/"><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -133,9 +133,9 @@
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
         <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+            <span class="mobile-nav__close "><i class="fa fa-times"></i></span>
             <div class="logo-box">
-                <a href="#" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="140"
+                <a href="<?= base_url('home') ?>" aria-label="logo image"><img src="<?= base_url('assets/images/resources/footer-logo (1).png') ?>" width="100"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -155,9 +155,9 @@
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
                     <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61583894971964" class="fab fa-facebook-square"></a>
                     <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="https://www.instagram.com/aceauto2025/" class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 

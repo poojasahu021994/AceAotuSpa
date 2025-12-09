@@ -85,8 +85,11 @@ body {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
+  /* overflow-x: hidden; */
 }
-
+body, html{
+   overflow-x: hidden !important;
+}
 body.locked {
   overflow: hidden;
 }
@@ -1556,7 +1559,7 @@ xs sidebar
   height: 55px;
 }
 .main-menu__main-menu-box {
-  display: block;
+  display: none;
 }
 
 .main-menu__right {
@@ -1564,7 +1567,7 @@ xs sidebar
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 20px;
   padding: 18px 0;
 }
 
@@ -1631,6 +1634,7 @@ xs sidebar
   position: relative;
   display: flex;
   align-items: center;
+   display:none;
 }
 
 .main-menu__search-box {
@@ -1655,7 +1659,7 @@ xs sidebar
 .main-menu__cart-box {
   position: relative;
   display: block;
-  margin-left: 20px;
+
 }
 
 .main-menu__cart {
@@ -1691,11 +1695,11 @@ xs sidebar
   color: var(--servixa-base);
 }
 
-.main-menu__nav-sidebar-icon {
+/* .main-menu__nav-sidebar-icon {
   position: relative;
   display: block;
   margin-left: 10px;
-}
+} */
 
 .main-menu__nav-sidebar-icon .navSidebar-button {
   position: relative;
@@ -1842,7 +1846,138 @@ xs sidebar
   display: none;
 }
 
+/* location and search */
 
+.delivery-left {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 10px;
+    width: 280px;
+}
+
+.delivery-left i {
+    margin-right: 10px;
+    color: var(--servixa-base);
+    font-size: 20px;
+}
+
+.delivery-left .text-content h4 { margin:0; font-size:12px; }
+.delivery-left .text-content p { margin:2px 0 0 0; font-size:10px; color:#666; }
+
+.drop-icon {
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+/* Desktop search */
+.desktop-search {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+
+.desktop-search i { margin-right:10px; color:#888; }
+.desktop-search input { border:none; outline:none; font-size:14px; }
+
+/* Mobile search icon */
+.search-icon { display: none; font-size:20px; cursor:pointer; }
+
+/* Popup search */
+.popup-search-bar {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.popup-search-bar .delivery-search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+
+.popup-search-bar input { flex: 1; border:none; outline:none; font-size:14px; }
+.popup-search-bar .close-popup { font-size:20px; cursor:pointer; }
+
+/* Overlay */
+.search-overlay {
+    display: none;
+    position: fixed; top:0; left:0;
+    width:100%; height:100%;
+    background: rgba(0,0,0,0.3);
+    z-index:998;
+}
+/* Default: Desktop + Tablet view */
+.delivery-left-down {
+    display: none;   
+}
+
+.delivery-left {
+    display: flex;   /* Show in desktop & tablet */
+}
+
+
+/* Mobile view (max 767px) */
+@media (max-width: 767px) {
+
+    /* Top header delivery-left ko hide karo */
+    .main-header .delivery-left {
+        display: none;
+    }
+.delivery-left-down {
+   display: block;/* Hide in desktop & tablet */
+}
+    /* Mobile ke liye bottom delivery-left-down show */
+    .delivery-left-down {
+        display: flex;
+        align-items: center;
+        background-color: #0000 !important;
+        padding: 12px 16px;
+        border-bottom: 0.5px solid #b6b5b5;
+    }
+
+    .delivery-left-down i {
+        margin-right: 10px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .text-content-down h4 {
+        font-size: 14px;
+        margin: 0;
+         color: #fff;
+    }
+
+    .text-content-down p {
+        font-size: 12px;
+        margin: 2px 0 0 0;
+        color: #fff;
+    }
+}
+
+/* Responsive: tablet/mobile */
+@media (max-width:1024px) {
+    .desktop-search { display:none; }
+    .search-icon { display:block; }
+    
+}
 
 @media (min-width: 1200px) {
 
@@ -2184,7 +2319,7 @@ xs sidebar
 
 @media (min-width: 1200px) {
   .main-menu .mobile-nav__toggler {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -2269,7 +2404,7 @@ xs sidebar
 }
 
 .mobile-nav__content .logo-box {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3854,11 +3989,11 @@ xs sidebar
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 900ms;
-  -moz-transition-delay: 900ms;
-  -ms-transition-delay: 900ms;
-  -o-transition-delay: 900ms;
-  transition-delay: 900ms;
+  -webkit-transition-delay: 500ms;
+  -moz-transition-delay: 500ms;
+  -ms-transition-delay: 500ms;
+  -o-transition-delay: 500ms;
+  transition-delay: 500ms;
 }
 
 .main-slider__text {
@@ -3899,6 +4034,7 @@ xs sidebar
 .main-slider__btn-and-review-box {
   position: relative;
   display: flex;
+ 
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
@@ -4086,8 +4222,11 @@ xs sidebar
 #main-slider-pagination .swiper-pagination-bullet+.swiper-pagination-bullet {
   margin-top: 25px;
 }
-
-
+@media only screen and (max-width: 425px) {
+    .main-slider{
+        padding-top: 70px;
+    }
+  }
 /*--------------------------------------------------------------
   # Main Slider Two
   --------------------------------------------------------------*/
@@ -5086,7 +5225,7 @@ xs sidebar
 .about-one {
   position: relative;
   display: block;
-  padding: 120px 0px 0px;
+  padding: 120px 0px 7cap;
   z-index: 1;
 }
 
@@ -5618,6 +5757,30 @@ xs sidebar
 
 .about-one__author-sign img {
   width: auto;
+
+}
+
+/* mission and vision */
+.mission-vision-section {
+    padding: 70px 0;
+    background: #f7f7f7;
+}
+
+.single-box {
+    background: #fff;
+    padding: 35px 30px;
+}
+
+.box-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.box-text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--servixa-gray);
 }
 
 /*==============================================
@@ -13089,6 +13252,9 @@ Project One
 
 /* location search */
 
+/* ===========================
+  OVERLAY
+=========================== */
 .overlay {
     position: fixed;
     top: 0; left: 0;
@@ -13102,7 +13268,10 @@ Project One
     display: none !important;
 }
 
-/* Popup Box */
+
+/* ===========================
+   POPUP BASE (Desktop Default)
+=========================== */
 .popup {
     width: 420px;
     background: #fff;
@@ -13112,10 +13281,14 @@ Project One
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000;
+    max-height: 90vh;
+    overflow-y: auto;
     box-shadow: 0 8px 40px rgba(0,0,0,0.1);
 }
 
-/* Header */
+/* ===========================
+   HEADER
+=========================== */
 .popup-header {
     display: flex;
     justify-content: space-between;
@@ -13123,18 +13296,23 @@ Project One
     font-weight: 600;
     padding-bottom: 10px;
 }
-.popup-header h3{
- font-size: 18px;
+
+.popup-header h3 {
+    font-size: 18px;
     font-weight: 500;
 }
-.close-btn {
+
+.close-btn,
+.back-btn {
     cursor: pointer;
     font-size: 20px;
 }
-.back-btn{
-  cursor: pointer;
+
+.back-btn {
     font-size: 15px;
 }
+
+/* Inputs */
 .input-box {
     width: 100%;
     padding: 12px 15px;
@@ -13152,11 +13330,13 @@ Project One
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 12px;
 }
 
-.btn-primary:hover{
- background: var(--servixa-black);
+.btn-primary:hover {
+    background: var(--servixa-black);
 }
+
 .or {
     text-align: center;
     margin: 15px 0;
@@ -13170,6 +13350,7 @@ Project One
     font-weight: 500;
 }
 
+/* Address Box */
 .address-box {
     margin-top: 12px;
     background: #f5f5f5;
@@ -13185,7 +13366,7 @@ Project One
     cursor: pointer;
 }
 
-/* Vehicle Step */
+/* Vehicle step */
 .vehicle-options {
     margin-top: 20px;
 }
@@ -13203,6 +13384,8 @@ Project One
 .vehicle-card input {
     margin-right: 10px;
 }
+
+/* Suggestions */
 .suggestions {
     background: #f7f7f7;
     border-radius: 8px;
@@ -13227,7 +13410,78 @@ Project One
 .suggestions li:hover {
     background: #eaeaea;
 }
-/* details */
+
+
+/* ============================================
+  MOBILE RESPONSIVE STYLE (Max 767px)
+============================================ */
+@media (max-width: 767px) {
+    .popup {
+        width: 300px;       
+        padding: 15px;          /* reduce padding */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .popup-header h3 {
+        font-size: 15px;
+    }
+
+    .input-box {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .vehicle-card {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+
+/* ============================================
+   📱 TABLET (768px - 1024px)
+============================================ */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .popup {
+         width: 350px;
+        /* max-width: 500px; */
+        padding: 25px;
+    }
+.or {
+   
+    margin: 10px 0; 
+}
+
+    .popup-header h3 {
+        font-size: 18px;
+    }
+     .popup-header h3 {
+        font-size: 15px;
+    }
+
+    .input-box {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .vehicle-card {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
 /* Background overlay */
 .details-modal {
     display: none;

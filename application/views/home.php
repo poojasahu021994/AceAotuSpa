@@ -1,6 +1,3 @@
-<?php
-defined('BASEPATH') or exit('No direct script access allowed');
-?>
 <?php $this->load->view('includes/header'); ?>
 <!--Main Slider Start-->
 <section class="main-slider">
@@ -10,32 +7,26 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="swiper-slide">
                 <div class="main-slider__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);">
                 </div>
-                <div class="main-slider__img">
-                    <img src="assets/images/resources/ma-slider-img-1-1.png" alt="">
-                </div>
-                <div class="main-slider__shape-1"></div>
-                <div class="main-slider__shape-2"></div>
-                <div class="main-slider__shape-3"></div>
-                <div class="main-slider__shape-4"></div>
-                <div class="main-slider__shape-5">
-                    <img src="assets/images/shapes/main-slider-shape-5.png" alt="">
-                </div>
-                <div class="main-slider__shape-6">
-                    <img src="assets/images/shapes/main-slider-shape-6.png" alt="" class="rotate-me">
-                </div>
+
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12 col-12">
                             <div class="main-slider__content">
-                                <h4 class="main-slider__sub-title">Drive Smooth, Drive Safe</h4>
-                                <h2 class="main-slider__title">Expert Car Repair & <br> Maintenance Services
-                                    <br> <span>You Can Trust</span>
+                                <h4 class="main-slider__sub-title">Shine That Stands Out</h4>
+
+                                <h2 class="main-slider__title">
+                                    Smart Car & Bike Wash <br>
+                                    Services for a Fresh <br>
+                                    <span>Daily Shine</span>
                                 </h2>
-                                <p class="main-slider__text">We offer everything from engine diagnostics to
-                                    routine oil changes. <br> Quality service by certified mechanics.</p>
+
+                                <p class="main-slider__text">
+                                    High-pressure wash, foam treatment, polishing & more — <br>
+                                    crafted for a luxury shine.
+                                </p>
                                 <div class="main-slider__btn-and-review-box">
 
-                                    <div class="row text-center">
+                                    <div class="row text-center gap-4">
 
                                         <div class="col-md-6">
                                             <div class="stats-box px-5  py-2 shadow-sm rounded bg-light">
@@ -55,7 +46,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12 col-12">
                             <section class="project-one">
                                 <div class="container">
                                     <div class="project-one__top">
@@ -71,7 +62,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     </div>
                                     <div class="swiper-container project-one__carousel">
                                         <div class="swiper-wrapper">
-                                            <!--Project One Single Start-->
+
                                             <div class="swiper-slide">
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
@@ -90,8 +81,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                                                         CARE</span>
                                                                     <div class="project-one__sub-title-bdr"></div>
                                                                 </div>
-                                                                <h3 class="project-one__title"><a
-                                                                        href="#">100% Cashback!</a>
+                                                                <h3 class="project-one__title"><a href="#">100%
+                                                                        Cashback!</a>
                                                                 </h3>
                                                             </div>
 
@@ -99,8 +90,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--Project One Single End-->
-                                            <!--Project One Single Start-->
+
                                             <div class="swiper-slide">
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
@@ -122,16 +112,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                                                         Repaired</span>
                                                                     <div class="project-one__sub-title-bdr"></div>
                                                                 </div>
-                                                                <h3 class="project-one__title"><a
-                                                                        href="#">Brake Repair
+                                                                <h3 class="project-one__title"><a href="#">Brake Repair
                                                                         Mastery</a></h3>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--Project One Single End-->
-                                            <!--Project One Single Start-->
+
                                             <div class="swiper-slide">
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
@@ -149,8 +137,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                                                         Repaired</span>
                                                                     <div class="project-one__sub-title-bdr"></div>
                                                                 </div>
-                                                                <h3 class="project-one__title"><a
-                                                                        href="#">Brake & Tire
+                                                                <h3 class="project-one__title"><a href="#">Brake & Tire
                                                                         Fix</a></h3>
                                                             </div>
 
@@ -158,8 +145,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--Project One Single End-->
-                                            <!--Project One Single Start-->
+
                                             <div class="swiper-slide">
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
@@ -177,8 +163,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                                                         Repaired</span>
                                                                     <div class="project-one__sub-title-bdr"></div>
                                                                 </div>
-                                                                <h3 class="project-one__title"><a
-                                                                        href="#">Engine Tune-Up
+                                                                <h3 class="project-one__title"><a href="#">Engine
+                                                                        Tune-Up
                                                                         Excellence</a></h3>
                                                             </div>
 
@@ -422,76 +408,80 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="row">
                 <!--Process One Single Start-->
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
-    <div class="process-one__single">
-        <div class="process-one__single-inner">
-            <div class="process-one__icon">
-                <span class="icon-fast"></span>
-            </div>
-            <div class="process-one__single-inner-bg"
-                style="background-image: url(assets/images/backgrounds/process-one-single-inner-bg.jpg);">
-            </div>
-            <div class="process-one__content">
-                <h3 class="process-one__title">Book Your Wash</h3>
-                <p class="process-one__text">Choose your wash package and pick a convenient time—quick and easy online booking.</p>
-            </div>
-        </div>
-        <div class="process-one__count"></div>
-    </div>
-</div>
+                    <div class="process-one__single">
+                        <div class="process-one__single-inner">
+                            <div class="process-one__icon">
+                                <span class="icon-fast"></span>
+                            </div>
+                            <div class="process-one__single-inner-bg"
+                                style="background-image: url(assets/images/backgrounds/process-one-single-inner-bg.jpg);">
+                            </div>
+                            <div class="process-one__content">
+                                <h3 class="process-one__title">Book Your Wash</h3>
+                                <p class="process-one__text">Choose your wash package and pick a convenient time—quick
+                                    and easy online booking.</p>
+                            </div>
+                        </div>
+                        <div class="process-one__count"></div>
+                    </div>
+                </div>
 
-<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms">
-    <div class="process-one__single">
-        <div class="process-one__single-inner">
-            <div class="process-one__icon">
-                <span class="icon-car"></span>
-            </div>
-            <div class="process-one__single-inner-bg"
-                style="background-image: url(assets/images/backgrounds/process-one-single-inner-bg.jpg);">
-            </div>
-            <div class="process-one__content">
-                <h3 class="process-one__title">Vehicle Check</h3>
-                <p class="process-one__text">We inspect your car or bike to understand the cleaning level and ensure proper care.</p>
-            </div>
-        </div>
-        <div class="process-one__count"></div>
-    </div>
-</div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms">
+                    <div class="process-one__single">
+                        <div class="process-one__single-inner">
+                            <div class="process-one__icon">
+                                <span class="icon-car"></span>
+                            </div>
+                            <div class="process-one__single-inner-bg"
+                                style="background-image: url(assets/images/backgrounds/process-one-single-inner-bg.jpg);">
+                            </div>
+                            <div class="process-one__content">
+                                <h3 class="process-one__title">Vehicle Check</h3>
+                                <p class="process-one__text">We inspect your car or bike to understand the cleaning
+                                    level and ensure proper care.</p>
+                            </div>
+                        </div>
+                        <div class="process-one__count"></div>
+                    </div>
+                </div>
 
-<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms">
-    <div class="process-one__single">
-        <div class="process-one__single-inner">
-            <div class="process-one__icon">
-                <span class="icon-technician"></span>
-            </div>
-            <div class="process-one__single-inner-bg"
-                style="background-image: url(assets/images/backgrounds/process-one-single-inner-bg.jpg);">
-            </div>
-            <div class="process-one__content">
-                <h3 class="process-one__title">Professional Wash</h3>
-                <p class="process-one__text">Our trained experts use premium products, advanced equipment for spotless wash.</p>
-            </div>
-        </div>
-        <div class="process-one__count"></div>
-    </div>
-</div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms">
+                    <div class="process-one__single">
+                        <div class="process-one__single-inner">
+                            <div class="process-one__icon">
+                                <span class="icon-technician"></span>
+                            </div>
+                            <div class="process-one__single-inner-bg"
+                                style="background-image: url(assets/images/backgrounds/process-one-single-inner-bg.jpg);">
+                            </div>
+                            <div class="process-one__content">
+                                <h3 class="process-one__title">Professional Wash</h3>
+                                <p class="process-one__text">Our trained experts use premium products, advanced
+                                    equipment for spotless wash.</p>
+                            </div>
+                        </div>
+                        <div class="process-one__count"></div>
+                    </div>
+                </div>
 
-<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="400ms">
-    <div class="process-one__single">
-        <div class="process-one__single-inner">
-            <div class="process-one__single-inner-bg"
-                style="background-image: url(assets/images/backgrounds/process-one-single-inner-bg.jpg);">
-            </div>
-            <div class="process-one__icon">
-                <span class="icon-check-1"></span>
-            </div>
-            <div class="process-one__content">
-                <h3 class="process-one__title">Ready for Pickup</h3>
-                <p class="process-one__text">Your vehicle is cleaned, polished, and ready to go—shine guaranteed!</p>
-            </div>
-        </div>
-        <div class="process-one__count"></div>
-    </div>
-</div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="400ms">
+                    <div class="process-one__single">
+                        <div class="process-one__single-inner">
+                            <div class="process-one__single-inner-bg"
+                                style="background-image: url(assets/images/backgrounds/process-one-single-inner-bg.jpg);">
+                            </div>
+                            <div class="process-one__icon">
+                                <span class="icon-check-1"></span>
+                            </div>
+                            <div class="process-one__content">
+                                <h3 class="process-one__title">Ready for Pickup</h3>
+                                <p class="process-one__text">Your vehicle is cleaned, polished, and ready to go—shine
+                                    guaranteed!</p>
+                            </div>
+                        </div>
+                        <div class="process-one__count"></div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -524,7 +514,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             Our <span>Car Wash Services!</span>
                         </h3>
                     </div>
-                    <p class="why-choose-two__text">We provide top-notch car and bike wash services to keep your vehicle clean, shiny, and protected.</p>
+                    <p class="why-choose-two__text">We provide top-notch car and bike wash services to keep your vehicle
+                        clean, shiny, and protected.</p>
 
                     <!-- Buttons -->
                     <div class="why-choose-two__buttons">
@@ -572,75 +563,79 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </div>
                             </div>
                         </div>
-                        <h3 class="section-title__title title-animation">Answers to the most asked questions 
+                        <h3 class="section-title__title title-animation">Answers to the most asked questions
                             <span>about our wash services.</span>
                         </h3>
                     </div>
                     <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
-                       <div class="accrodion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-    <div class="accrodion-title">
-        <h4>What’s included in a basic car or bike wash?</h4>
-    </div>
-    <div class="accrodion-content">
-        <div class="inner">
-            <p>A basic wash includes exterior washing, foam cleaning, wheel cleaning, tyre dressing,
-                and wiping of windows and mirrors.
-            </p>
-        </div>
-    </div>
-</div>
+                        <div class="accrodion wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="accrodion-title">
+                                <h4>What’s included in a basic car or bike wash?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>A basic wash includes exterior washing, foam cleaning, wheel cleaning, tyre
+                                        dressing,
+                                        and wiping of windows and mirrors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-<div class="accrodion active wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
-    <div class="accrodion-title">
-        <h4>Do you offer doorstep wash service?</h4>
-    </div>
-    <div class="accrodion-content">
-        <div class="inner">
-            <p>Yes, we offer doorstep car and bike wash services depending on your location and
-                availability slot.
-            </p>
-        </div>
-    </div>
-</div>
+                        <div class="accrodion active wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                            <div class="accrodion-title">
+                                <h4>Do you offer doorstep wash service?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Yes, we offer doorstep car and bike wash services depending on your location and
+                                        availability slot.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-<div class="accrodion wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-    <div class="accrodion-title">
-        <h4>How long does a complete wash take?</h4>
-    </div>
-    <div class="accrodion-content">
-        <div class="inner">
-            <p>A standard car or bike wash usually takes 20–40 minutes. Detailing services may take
-                longer depending on the package.
-            </p>
-        </div>
-    </div>
-</div>
+                        <div class="accrodion wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="accrodion-title">
+                                <h4>How long does a complete wash take?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>A standard car or bike wash usually takes 20–40 minutes. Detailing services may
+                                        take
+                                        longer depending on the package.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-<div class="accrodion wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-    <div class="accrodion-title">
-        <h4>Which products do you use for washing?</h4>
-    </div>
-    <div class="accrodion-content">
-        <div class="inner">
-            <p>We use high-quality, branded, and vehicle-safe shampoos, foam solutions, and detailing
-                products to ensure a scratch-free and shine-enhancing wash.
-            </p>
-        </div>
-    </div>
-</div>
+                        <div class="accrodion wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="accrodion-title">
+                                <h4>Which products do you use for washing?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>We use high-quality, branded, and vehicle-safe shampoos, foam solutions, and
+                                        detailing
+                                        products to ensure a scratch-free and shine-enhancing wash.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-<div class="accrodion wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-    <div class="accrodion-title">
-        <h4>Do you have packages for regular monthly washing?</h4>
-    </div>
-    <div class="accrodion-content">
-        <div class="inner">
-            <p>Yes, we offer affordable monthly and subscription-based washing packages for both cars
-                and bikes with discounted rates and priority service.
-            </p>
-        </div>
-    </div>
-</div>
+                        <div class="accrodion wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="accrodion-title">
+                                <h4>Do you have packages for regular monthly washing?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Yes, we offer affordable monthly and subscription-based washing packages for both
+                                        cars
+                                        and bikes with discounted rates and priority service.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
