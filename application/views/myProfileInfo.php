@@ -6,9 +6,6 @@
             </div>
             <div class="container">
                 <div class="page-header__inner">
-                    <div class="page-header__img-1">
-                        <img src="assets/images/resources/page-header-img-1.png" alt="">
-                    </div>
                     <h3>My Profile</h3>
                     <div class="thm-breadcrumb__inner">
                         <ul class="thm-breadcrumb list-unstyled">
@@ -69,7 +66,7 @@
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
                                         href="<?= base_url('settings') ?>"><i class="far fa-cog"></i>Settings</a></li>
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
-                                        href="<?= base_url('logout') ?>"><i class="far fa-sign-out-alt"></i>Logout</a></li>
+                                        href="<?= base_url('home') ?>"><i class="far fa-sign-out-alt"></i>Logout</a></li>
                             </ul>
                         </aside>
                     </div>
@@ -107,7 +104,7 @@
                                                             class="fal fa-question-circle"></i> Support</a>
                                                 </li>
                                                
-                                                <li><a href="<?= base_url('logout') ?>"><i class="far fa-sign-out-alt"></i>
+                                                <li><a href="<?= base_url('home') ?>"><i class="far fa-sign-out-alt"></i>
                                                         Sign
                                                         Out</a></li>
                                             </ul>
@@ -152,7 +149,3 @@
 
 <?php $this->load->view('includes/footer'); ?>
 <?php $this->load->view('includes/footer-link'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>

@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?php $this->load->view('includes/header'); ?>
 
   <!--Page Header Start-->
@@ -44,12 +41,12 @@
                                             <td>
                                                 <div class="product-box">
                                                     <div class="img-box">
-                                                        <img src="assets/images/shop/cart-page-img-1.jpg" alt="">
+                                                        <img src="<?php echo base_url('assets/images/wash/premium-wash-cart.png'); ?>" alt="">
                                                     </div>
-                                                    <h3><a href="product-details.html">Gree Air Conditioner</a></h3>
+                                                    <h3><a href="product-details.html">Premium Wash</a></h3>
                                                 </div>
                                             </td>
-                                            <td>$10.99</td>
+                                            <td>₹ 700</td>
                                             <td>
                                                 <div class="quantity-box">
                                                     <button type="button" class="sub"><i
@@ -60,7 +57,7 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                $10.99
+                                                ₹ 700
                                             </td>
                                             <td>
                                                 <div class="cross-icon">
@@ -73,13 +70,13 @@
                                             <td>
                                                 <div class="product-box">
                                                     <div class="img-box">
-                                                        <img src="assets/images/shop/cart-page-img-2.jpg" alt="">
+                                                        <img src="<?php echo base_url('assets/images/wash/wash-details-cart.png'); ?>" alt="">
                                                     </div>
-                                                    <h3><a href="product-details.html">Pliers | Cutting, Gripping</a>
+                                                    <h3><a href="product-details.html">Basic wash</a>
                                                     </h3>
                                                 </div>
                                             </td>
-                                            <td>$10.99</td>
+                                            <td>₹ 700</td>
                                             <td>
                                                 <div class="quantity-box">
                                                     <button type="button" class="sub"><i
@@ -90,7 +87,7 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                $10.99
+                                                ₹ 700
                                             </td>
                                             <td>
                                                 <div class="cross-icon">
@@ -103,12 +100,12 @@
                                             <td>
                                                 <div class="product-box">
                                                     <div class="img-box">
-                                                        <img src="assets/images/shop/cart-page-img-3.jpg" alt="">
+                                                        <img src="<?php echo base_url('assets/images/wash/bike-wash-cart.png'); ?>" alt="">
                                                     </div>
-                                                    <h3><a href="product-details.html">Gear and wrench</a></h3>
+                                                    <h3><a href="product-details.html">Bike Foam Wash</a></h3>
                                                 </div>
                                             </td>
-                                            <td>$10.99</td>
+                                            <td>₹ 700</td>
                                             <td>
                                                 <div class="quantity-box">
                                                     <button type="button" class="sub"><i
@@ -119,7 +116,7 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                $10.99
+                                                ₹ 700
                                             </td>
                                             <td>
                                                 <div class="cross-icon">
@@ -132,12 +129,12 @@
                                             <td>
                                                 <div class="product-box">
                                                     <div class="img-box">
-                                                        <img src="assets/images/shop/cart-page-img-4.jpg" alt="">
+                                                        <img src="<?php echo base_url('assets/images/wash/ceramic-wash-cart.png'); ?>" alt="">
                                                     </div>
-                                                    <h3><a href="product-details.html">Nut Driver</a></h3>
+                                                    <h3><a href="product-details.html">Ceramic Wash</a></h3>
                                                 </div>
                                             </td>
-                                            <td>$10.99</td>
+                                            <td>₹ 700</td>
                                             <td>
                                                 <div class="quantity-box">
                                                     <button type="button" class="sub"><i
@@ -148,7 +145,7 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                $10.99
+                                                ₹ 700
                                             </td>
                                             <td>
                                                 <div class="cross-icon">
@@ -223,19 +220,19 @@
                                     <ul class="cart-total list-unstyled">
                                         <li>
                                             <span>Cart Subtotal</span>
-                                            <span>$20.98 USD </span>
+                                            <span>₹ 2100</span>
                                         </li>
                                         <li>
                                             <span>Shipping Cost</span>
-                                            <span>-$40.00 USD</span>
+                                            <span>₹ 100</span>
                                         </li>
                                         <li>
                                             <span>Discount</span>
-                                            <span>$0.00 USD</span>
+                                            <span>₹ 00</span>
                                         </li>
                                         <li>
                                             <span>Cart Total</span>
-                                            <span class="cart-total-amount">$20.98 USD</span>
+                                            <span class="cart-total-amount">₹ 2200</span>
                                         </li>
                                     </ul>
                                     <div class="cart-page__buttons">
@@ -259,8 +256,5 @@
         <!--End Cart Page-->
 
         </div><!-- /.page-wrapper -->
- <?php $this->load->view('includes/footer-link'); ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+ <?php $this->load->view('includes/footer'); ?>
+<?php $this->load->view('includes/footer-link'); ?>

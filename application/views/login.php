@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?php $this->load->view('includes/header-link'); ?>
 
 <body class="custom-cursor">
@@ -23,7 +20,7 @@
                     <div class="inner-title text-center">
                         <h2>Login Here</h2>
                     </div>
-                    <form id="login-one__form" name="Login-one_form" action="#" method="post">
+                    <form id="login-one__form" name="Login-one_form" action="<?= base_url('dashboard') ?>" method="post">
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="form-group">
@@ -43,9 +40,10 @@
                             </div>
                             <div class="col-xl-12">
                                 <div class="form-group text-center">
-                                    <button class="thm-btn py-3 " type="submit" data-loading-text="Please wait...">Login Here
+                                    <a href="<?= base_url('dashboard') ?>"> <button class="thm-btn py-3 " type="submit" data-loading-text="Please wait...">Login Here
                                         
-                                    </button>
+                                    </button></a>
+                                   
                                 </div>
                             </div>
                             <div class="remember-forget">
@@ -72,8 +70,8 @@
         <!--End Login One-->
 
   </div><!-- /.page-wrapper -->
- <?php $this->load->view('includes/footer-link'); ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <?php $this->load->view('includes/footer-link'); ?>
+   
 </body>
 
 </html>

@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?php $this->load->view('includes/header'); ?>
 
   <!--Page Header Start-->
@@ -300,6 +297,5 @@
         <!--Dashboard End-->
  
  </div><!-- /.page-wrapper -->
- <?php $this->load->view('includes/footer-link'); ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>
+<?php $this->load->view('includes/footer'); ?>
+<?php $this->load->view('includes/footer-link'); ?>

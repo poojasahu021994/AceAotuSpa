@@ -6,15 +6,12 @@
             </div>
             <div class="container">
                 <div class="page-header__inner">
-                    <div class="page-header__img-1">
-                        <img src="assets/images/resources/page-header-img-1.png" alt="">
-                    </div>
-                    <h3>My Wallet</h3>
+                    <h3>My Transactions</h3>
                     <div class="thm-breadcrumb__inner">
                         <ul class="thm-breadcrumb list-unstyled">
                             <li><a href="index.html">Home</a></li>
                             <li><span class="fas fa-angle-right"></span></li>
-                            <li>My Wallet</li>
+                            <li>My Transactions</li>
                         </ul>
                     </div>
                 </div>
@@ -44,32 +41,32 @@
                             </div>
                             <ul class="dashboard__menu">
                                 <li class="dashboard__menu-item">
-                                    <a class="dashboard__menu-link" href="profile-dashboard.html"><i
+                                    <a class="dashboard__menu-link" href="<?= base_url('dashboard') ?>"><i
                                             class="far fa-tachometer-alt-fast"></i>My
                                         Dashboard</a>
                                 </li>
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
-                                        href="my-profile-info.html"><i class="fal fa-user"></i>My
+                                        href="<?= base_url('myProfileInfo') ?>"><i class="fal fa-user"></i>My
                                         Profile</a>
                                 </li>
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
-                                        href="profile-booking.html"><i class="fal fa-shopping-bag"></i>My
+                                        href="<?= base_url('myBooking') ?>"><i class="fal fa-shopping-bag"></i>My
                                         Booking</a></li>
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
-                                        href="profile-booking-history.html"><i
+                                        href="<?= base_url('bookingHistory') ?>"><i
                                             class="far fa-clipboard-list-check"></i>Booking
                                         History</a>
                                 </li>
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
-                                        href="profile-wallet.html"><i class="far fa-wallet"></i>My
+                                        href="<?= base_url('transactionsHistory') ?>"><i class="far fa-wallet"></i>My
                                         Transactions</a></li>
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
-                                        href="profile-notifications.html"><i class="far fa-bell"></i>Notifications
+                                        href="<?= base_url('notifications') ?>"><i class="far fa-bell"></i>Notifications
                                         <span class="dashboard__badge">8</span></a></li>
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
-                                        href="profile-settings.html"><i class="far fa-cog"></i>Settings</a></li>
+                                        href="<?= base_url('settings') ?>"><i class="far fa-cog"></i>Settings</a></li>
                                 <li class="dashboard__menu-item"><a class="dashboard__menu-link"
-                                        href="profile-logout.html"><i class="far fa-sign-out-alt"></i>Logout</a></li>
+                                        href="<?= base_url('logout') ?>"><i class="far fa-sign-out-alt"></i>Logout</a></li>
                             </ul>
                         </aside>
                     </div>
@@ -201,5 +198,3 @@
 
 <?php $this->load->view('includes/footer'); ?>
 <?php $this->load->view('includes/footer-link'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>

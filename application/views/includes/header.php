@@ -62,8 +62,6 @@
                             </div>
                         </div>
                         <div class="main-menu__main-menu-box">
-
-                            <!-- <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a> -->
                             <ul class="main-menu__list one-page-scroll-menu">
                                 <li class="megamenu scrollToLink">
                                     <a href="<?= base_url('home') ?>">Home </a>
@@ -74,7 +72,7 @@
                                 <li class="scrollToLink">
                                     <a href="<?= base_url('services') ?>">Services</a>
                                 </li>
-                                <li class="dropdown">
+                                <!-- <li class="dropdown">
                                     <a href="#">Dashboard</a>
                                     <ul class="shadow-box">
                                         <li><a href="<?= base_url('dashboard') ?>">Dashboard</a></li>
@@ -86,22 +84,18 @@
                                         <li><a href="<?= base_url('settings') ?>">Settings</a></li>
                                         <li><a href="<?= base_url('logout') ?>">Logout</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li class="scrollToLink">
                                     <a href="#team">Team</a>
                                 </li>
-                                <li class="dropdown">
-                                    <a href="#">Bookings</a>
-                                    <ul class="shadow-box">
-                                        <li><a href="<?= base_url('cart') ?>">Car</a></li>
-                                        <li><a href="<?= base_url('checkout') ?>">Bike</a></li>
-                                    </ul>
+                                <li class="scrollToLink">
+                                    <a href="<?= base_url('booking') ?>">Bookings</a>   
                                 </li>
                                 <li class="scrollToLink">
                                     <a href="#blog">Blog</a>
                                 </li>
                                 <li class="scrollToLink">
-                                    <a href="#contact">Contact</a>
+                                    <a href="<?= base_url('contact') ?>">Contact</a>
                                 </li>
 
                             </ul>
@@ -128,8 +122,6 @@
                                     <input type="text" placeholder='Search "bread"'>
                                 </div>
                             </div>
-
-
                             <!-- Popup search bar -->
                             <div class="popup-search-bar" id="popupSearch">
                                 <i class="fas fa-times close-popup" id="closeSearch"></i>
@@ -141,19 +133,13 @@
 
                             <!-- Overlay -->
                             <div class="search-overlay" id="searchOverlay"></div>
-                            <!-- <div class="main-menu__search-cart-box">
-                                <div class="main-menu__search-box" onclick="openPopup()">
-                                    <a href="#" class="main-menu__search fas fa-map-marker-alt"></a>
-                                </div>
-                            </div> -->
-
+                            
                             <div class="main-menu__cart-box">
-                                <a href="" class="main-menu__cart">
+                                <a href="<?= base_url('cart') ?>" class="main-menu__cart">
                                     <span class="far fa-shopping-cart"></span>
                                     <span class="main-menu__cart-count">02</span>
                                 </a>
                             </div>
-
 
                             <div class="main-menu__btn-box user-dropdown">
                                 <a href="#" class="thm-btn-1 user-btn">

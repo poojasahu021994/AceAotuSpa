@@ -26,12 +26,12 @@
                                 </p>
                                 <div class="main-slider__btn-and-review-box">
 
-                                    <div class="row text-center gap-4">
+                                    <div class="row text-center gap-lg-0 gap-4">
 
                                         <div class="col-md-6">
                                             <div class="stats-box px-5  py-2 shadow-sm rounded bg-light">
-                                                <h2 class="fw-bold ">25,00,000+</h2>
-                                                <p class="mb-0 ">App Downloads</p>
+                                                <h2 class="fw-bold">250+</h2>
+                                                <p class="mb-0">Vehicles Serviced</p>
                                             </div>
                                         </div>
 
@@ -60,124 +60,128 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="swiper-container project-one__carousel">
                                         <div class="swiper-wrapper">
 
+                                            <!-- BASIC WASH -->
                                             <div class="swiper-slide">
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
                                                         <div class="project-one__img">
-                                                            <img src="assets/images/home-page/car-bike-img-1.png"
-                                                                alt="">
+                                                            <img src="assets/images/home-page/car-bike-img-1.png" alt="">
                                                         </div>
+
+                                                        <!-- VIEW ICON -->
                                                         <div class="project-one__arrow">
-                                                            <a href="#" class="details-popup" data-details="basic"><span
-                                                                    class="icon-next"></span></a>
+                                                            <a href="#" class="details-popup" data-details="basic">
+                                                                <span class="fa fa-eye"></span>
+                                                            </a>
                                                         </div>
+
                                                         <div class="project-one__content-inner">
                                                             <div class="project-one__content">
                                                                 <div class="project-one__sub-title-and-shape">
-                                                                    <span class="project-one__sub-title">CAR/BIKE WASH &
-                                                                        CARE</span>
+                                                                    <span class="project-one__sub-title">Car/Bike Wash</span>
                                                                     <div class="project-one__sub-title-bdr"></div>
                                                                 </div>
-                                                                <h3 class="project-one__title"><a href="#">100%
-                                                                        Cashback!</a>
-                                                                </h3>
+                                                                <h3 class="project-one__title"><a href="<?= base_url('checkout') ?>">Basic Wash</a></h3>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
+                                            <!-- PRO WASH -->
                                             <div class="swiper-slide">
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
                                                         <div class="project-one__img">
-                                                            <img src="assets/images/home-page/car-bike-insurance.png"
-                                                                alt="">
+                                                            <img src="assets/images/home-page/car-bike-insurance.png" alt="">
                                                         </div>
-                                                        <div class="project-one__arrow">
 
+                                                        <!-- VIEW ICON -->
+                                                        <div class="project-one__arrow">
                                                             <a href="#" class="details-popup" data-details="pro">
-                                                                <span class="icon-next">
-
-                                                                </span></a>
+                                                                <span class="fa fa-eye"></span>
+                                                            </a>
                                                         </div>
+
                                                         <div class="project-one__content-inner">
                                                             <div class="project-one__content">
                                                                 <div class="project-one__sub-title-and-shape">
-                                                                    <span class="project-one__sub-title">Auto
-                                                                        Repaired</span>
+                                                                    <span class="project-one__sub-title">Foam Wash</span>
                                                                     <div class="project-one__sub-title-bdr"></div>
                                                                 </div>
-                                                                <h3 class="project-one__title"><a href="#">Brake Repair
-                                                                        Mastery</a></h3>
+                                                                <h3 class="project-one__title"><a href="<?= base_url('checkout') ?>">Pro Foam Wash</a></h3>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
+                                            <!-- CERAMIC WASH -->
                                             <div class="swiper-slide">
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
                                                         <div class="project-one__img">
                                                             <img src="assets/images/home-page/car-bike.png" alt="">
                                                         </div>
+
+                                                        <!-- VIEW ICON -->
                                                         <div class="project-one__arrow">
                                                             <a href="#" class="details-popup" data-details="ceramic">
-                                                                <span class="icon-next"></span></a>
+                                                                <span class="fa fa-eye"></span>
+                                                            </a>
                                                         </div>
+
                                                         <div class="project-one__content-inner">
                                                             <div class="project-one__content">
                                                                 <div class="project-one__sub-title-and-shape">
-                                                                    <span class="project-one__sub-title">Auto
-                                                                        Repaired</span>
+                                                                    <span class="project-one__sub-title">Premium Ceramic</span>
                                                                     <div class="project-one__sub-title-bdr"></div>
                                                                 </div>
-                                                                <h3 class="project-one__title"><a href="#">Brake & Tire
-                                                                        Fix</a></h3>
+                                                                <h3 class="project-one__title"><a href="<?= base_url('checkout') ?>">Ceramic Wash</a></h3>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
+                                            <!-- DEEP CLEAN -->
                                             <div class="swiper-slide">
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
                                                         <div class="project-one__img">
                                                             <img src="assets/images/project/project-1-6.jpg" alt="">
                                                         </div>
+
+                                                        <!-- VIEW ICON -->
                                                         <div class="project-one__arrow">
                                                             <a href="#" class="details-popup" data-details="deep">
-                                                                <span class="icon-next"></span></a>
+                                                                <span class="fa fa-eye"></span>
+                                                            </a>
                                                         </div>
+
                                                         <div class="project-one__content-inner">
                                                             <div class="project-one__content">
                                                                 <div class="project-one__sub-title-and-shape">
-                                                                    <span class="project-one__sub-title">Auto
-                                                                        Repaired</span>
+                                                                    <span class="project-one__sub-title">Deep Cleaning</span>
                                                                     <div class="project-one__sub-title-bdr"></div>
                                                                 </div>
-                                                                <h3 class="project-one__title"><a href="#">Engine
-                                                                        Tune-Up
-                                                                        Excellence</a></h3>
+                                                                <h3 class="project-one__title"><a href="<?= base_url('checkout') ?>">Interior Deep Clean</a></h3>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!--Project One Single End-->
-                                        </div>
-                                    </div>
+
+                                        </div> <!-- swiper-wrapper -->
+                                    </div> <!-- swiper-container -->
                                 </div>
                             </section>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -276,12 +280,12 @@
                     <div class="team-one__single">
                         <div class="team-one__img-box">
                             <div class="team-one__img">
-                                <iframe src="https://www.youtube.com/embed/RlcET9-UwQg?autoplay=1&amp;mute=0"
+                                <iframe src="https://www.youtube.com/embed/RlcET9-UwQg?mute=0"
                                     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
                                 </iframe>
                             </div>
                             <div class="team-one__social-box">
-                                <a href="https://www.youtube.com/embed/RlcET9-UwQg?autoplay=1&amp;mute=0"
+                                <a href="https://www.youtube.com/embed/RlcET9-UwQg?mute=0"
                                     class="video-popup" data-video-id="RlcET9-UwQg">
                                     <div class="project-one__video-icon">
                                         <span class="fas fa-play"></span>
@@ -304,7 +308,7 @@
                             <div class="team-one__img" data-video-id="RlcET9-UwQg">
 
                                 <iframe width="100%" height="100%"
-                                    src="https://www.youtube.com/embed/k6K9yNB77Bs?autoplay=1&amp;mute=0"
+                                    src="https://www.youtube.com/embed/k6K9yNB77Bs?mute=0"
                                     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
                                 </iframe>
 
@@ -331,7 +335,7 @@
                         <div class="team-one__img-box">
                             <div class="team-one__img">
                                 <iframe width="100%" height="100%"
-                                    src="https://www.youtube.com/embed/eGBT_Hny88U?autoplay=1&amp;mute=0"
+                                    src="https://www.youtube.com/embed/eGBT_Hny88U?mute=0"
                                     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
                                 </iframe>
                             </div>
@@ -357,7 +361,7 @@
                         <div class="team-one__img-box">
                             <div class="team-one__img">
                                 <iframe width="100%" height="100%"
-                                    src="https://www.youtube.com/embed/V1EIBUNW3_I?autoplay=1&amp;mute=0"
+                                    src="https://www.youtube.com/embed/V1EIBUNW3_I?mute=0"
                                     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
                                 </iframe>
                             </div>
@@ -659,7 +663,3 @@
 
 <?php $this->load->view('includes/footer'); ?>
 <?php $this->load->view('includes/footer-link'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>

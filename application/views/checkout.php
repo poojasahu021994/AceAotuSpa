@@ -284,8 +284,5 @@
         <!--End Checkout Page-->
 
     </div><!-- /.page-wrapper -->
- <?php $this->load->view('includes/footer-link'); ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+ <?php $this->load->view('includes/footer'); ?>
+<?php $this->load->view('includes/footer-link'); ?>

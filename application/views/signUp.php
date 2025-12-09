@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?php $this->load->view('includes/header-link'); ?>
 
 <body class="custom-cursor">
@@ -22,7 +19,7 @@
                     <div class="inner-title text-center">
                         <h2>Sing Up</h2>
                     </div>
-                    <form id="sign-up-one__form" name="sign-up-one_form" action="#" method="post">
+                    <form id="sign-up-one__form" name="sign-up-one_form" action="<?= base_url('login') ?>" method="post">
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="form-group">
@@ -89,7 +86,7 @@
     </div><!-- /.page-wrapper -->
 
     <?php $this->load->view('includes/footer-link'); ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+   
 </body>
 
 </html>

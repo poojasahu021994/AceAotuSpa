@@ -41,6 +41,18 @@ class Home extends CI_Controller {
 		$data['title'] = '';
         $this->load->view ('servicesDetails');
 	}
+	// booking
+	public function booking()
+	{
+		$data['title'] = '';
+        $this->load->view ('booking');
+	}
+	// contact
+	public function contact()
+	{
+		$data['title'] = '';
+        $this->load->view ('contact');
+	}
 	// myBooking
 	public function myBooking()
 	{

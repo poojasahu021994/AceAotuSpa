@@ -6,9 +6,6 @@
             </div>
             <div class="container">
                 <div class="page-header__inner">
-                    <div class="page-header__img-1">
-                        <img src="assets/images/resources/page-header-img-1.png" alt="">
-                    </div>
                     <h3>Profile Notifications</h3>
                     <div class="thm-breadcrumb__inner">
                         <ul class="thm-breadcrumb list-unstyled">
@@ -42,7 +39,7 @@
                                             href="mailto:annexiva@example.com">annexiva@example.com</a></p>
                                 </div>
                             </div>
-                            <ul class="dashboard__menu">
+                             <ul class="dashboard__menu">
                                 <li class="dashboard__menu-item">
                                     <a class="dashboard__menu-link" href="<?= base_url('dashboard') ?>"><i
                                             class="far fa-tachometer-alt-fast"></i>My
@@ -229,8 +226,5 @@
         </section>
         <!--Dashboard End-->
 
-
 <?php $this->load->view('includes/footer'); ?>
 <?php $this->load->view('includes/footer-link'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>
