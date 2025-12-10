@@ -69,7 +69,7 @@
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
                                                         <div class="project-one__img">
-                                                            <img src="assets/images/home-page/car-bike-img-1.png" alt="">
+                                                            <img src="assets/images/home-page/bike-wash.png" alt="">
                                                         </div>
 
                                                         <!-- VIEW ICON -->
@@ -97,7 +97,7 @@
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
                                                         <div class="project-one__img">
-                                                            <img src="assets/images/home-page/car-bike-insurance.png" alt="">
+                                                            <img src="assets/images/home-page/basic-wash (1).png" alt="">
                                                         </div>
 
                                                         <!-- VIEW ICON -->
@@ -125,7 +125,7 @@
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
                                                         <div class="project-one__img">
-                                                            <img src="assets/images/home-page/car-bike.png" alt="">
+                                                            <img src="assets/images/home-page/Premium-Ceramic.png" alt="">
                                                         </div>
 
                                                         <!-- VIEW ICON -->
@@ -153,7 +153,7 @@
                                                 <div class="project-one__single">
                                                     <div class="project-one__img-box">
                                                         <div class="project-one__img">
-                                                            <img src="assets/images/project/project-1-6.jpg" alt="">
+                                                            <img src="assets/images/home-page/deep-cleaning.png" alt="">
                                                         </div>
 
                                                         <!-- VIEW ICON -->
