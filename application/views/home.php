@@ -11,7 +11,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-md-12 col-12 ">
-                            <div class="main-slider__content sec-title-animation animation-style1">
+                            <div class="main-slider__content sec-title-animation animation-style2">
                                 <h4 class="main-slider__sub-title title-animation">Shine That Stands Out</h4>
 
                                 <h2 class="main-slider__title title-animation">

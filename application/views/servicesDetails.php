@@ -3,10 +3,10 @@
 <section class="page-header">
     <div class="container-fluid">
         <div class="page-header__inner">
-            <h3>Dashboard</h3>
+            <h3>Services Details</h3>
             <div class="thm-breadcrumb__inner">
                 <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="<?= base_url('home') ?>">Home</a></li>
                     <li><span class="fas fa-angle-right"></span></li>
                     <li>Services Details</li>
                 </ul>

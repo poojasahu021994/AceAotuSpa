@@ -2,14 +2,10 @@
 
 <!--Page Header Start-->
 <section class="page-header">
-    <!-- <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
-            </div> -->
     <div class="container-fluid">
         <div class="page-header__inner">
-            <!-- <div class="page-header__img-1">
-                        <img src="assets/images/resources/page-header-img-1.png" alt="">
-                    </div> -->
-            <h3>Dashboard</h3>
+           
+            <h3>Booking</h3>
             <div class="thm-breadcrumb__inner">
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="<?= base_url('home') ?>">Home</a></li>
