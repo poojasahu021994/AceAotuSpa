@@ -32,102 +32,92 @@
                             <th>Booking ID</th>
                             <th>Service</th>
                             <th>Date</th>
+                            <th>Time</th>
                             <th>Customer</th>
                             <th>Status</th>
-                            <th>Amount</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>#CW-00125</td>
-                            <td>Basic Car Wash</td>
-                            <td>2025-07-21</td>
-                            <td>Rohit</td>
-                            <td><span class="dashboard__completed-style">Completed</span></td>
-                            <td>₹700</td>
+                            <td>#BK-21001</td>
+                            <td>Premium Car Foam Wash</td>
+                            <td>2025-12-12</td>
+                            <td>10:30 AM</td>
+                            <td>Rohit Sharma</td>
+                            <td><span class="dashboard__pending-style">Pending</span></td>
+                            <td>
+                                <button class="dashboard__my-booking-btns">View</button>
+                                <button class="dashboard__my-booking-btns">Cancel</button>
+                            </td>
                         </tr>
 
                         <tr>
-                            <td>#CW-00118</td>
-                            <td>Foam Wash</td>
-                            <td>2025-07-19</td>
-                            <td>Pooja</td>
-                            <td><span class="dashboard__completed-style">Completed</span></td>
-                            <td>₹850</td>
+                            <td>#BK-20987</td>
+                            <td>Bike Wash & Polishing</td>
+                            <td>2025-12-10</td>
+                            <td>02:00 PM</td>
+                            <td>Amit Patil</td>
+                            <td><span class="dashboard__confirmed-style">Confirmed</span></td>
+                            <td>
+                                <button class="dashboard__my-booking-btns">View</button>
+                                <button class="dashboard__my-booking-btns">Cancel</button>
+                            </td>
                         </tr>
 
                         <tr>
-                            <td>#CW-00110</td>
-                            <td>Bike Wash + Polish</td>
-                            <td>2025-07-17</td>
-                            <td>Akash</td>
-                            <td><span class="dashboard__cancelled-style">Cancelled</span></td>
-                            <td>₹0</td>
-                        </tr>
-
-                        <tr>
-                            <td>#CW-00105</td>
+                            <td>#BK-20965</td>
                             <td>Interior Deep Cleaning</td>
-                            <td>2025-07-14</td>
-                            <td>Neha</td>
+                            <td>2025-12-09</td>
+                            <td>11:15 AM</td>
+                            <td>Sneha Kale</td>
                             <td><span class="dashboard__completed-style">Completed</span></td>
-                            <td>₹1500</td>
+                            <td>
+                                <button class="dashboard__my-booking-btns">View</button>
+                                <button class="dashboard__my-booking-btns">Cancel</button>
+                            </td>
                         </tr>
 
                         <tr>
-                            <td>#CW-00098</td>
-                            <td>Engine Bay Cleaning</td>
-                            <td>2025-07-10</td>
-                            <td>Vikas</td>
-                            <td><span class="dashboard__completed-style">Completed</span></td>
-                            <td>₹500</td>
+                            <td>#BK-20940</td>
+                            <td>Ceramic Coating – Car</td>
+                            <td>2025-12-08</td>
+                            <td>04:30 PM</td>
+                            <td>Pravin More</td>
+                            <td><span class="dashboard__pending-style">Pending</span></td>
+                            <td>
+                                <button class="dashboard__my-booking-btns">View</button>
+                                <button class="dashboard__my-booking-btns">Cancel</button>
+                            </td>
                         </tr>
 
                         <tr>
-                            <td>#CW-00092</td>
-                            <td>Premium Ceramic Wash</td>
-                            <td>2025-07-08</td>
-                            <td>Amit</td>
+                            <td>#BK-20912</td>
+                            <td>Car Wash & Wax</td>
+                            <td>2025-12-07</td>
+                            <td>09:45 AM</td>
+                            <td>Deepak Joshi</td>
                             <td><span class="dashboard__completed-style">Completed</span></td>
-                            <td>₹1500</td>
+                            <td>
+                                <button class="dashboard__my-booking-btns">View</button>
+                                <button class="dashboard__my-booking-btns">Cancel</button>
+                            </td>
                         </tr>
 
                         <tr>
-                            <td>#CW-00085</td>
+                            <td>#BK-20898</td>
                             <td>Bike Foam Wash</td>
-                            <td>2025-07-07</td>
-                            <td>Sonal</td>
-                            <td><span class="dashboard__cancelled-style">Cancelled</span></td>
-                            <td>₹0</td>
-                        </tr>
-
-                        <tr>
-                            <td>#CW-00080</td>
-                            <td>Full Car Detailing</td>
-                            <td>2025-07-05</td>
-                            <td>Kunal</td>
-                            <td><span class="dashboard__completed-style">Completed</span></td>
-                            <td>₹2500</td>
-                        </tr>
-
-                        <tr>
-                            <td>#CW-00076</td>
-                            <td>Vacuum & Interior Wipe</td>
-                            <td>2025-07-03</td>
-                            <td>Meera</td>
-                            <td><span class="dashboard__completed-style">Completed</span></td>
-                            <td>₹400</td>
-                        </tr>
-
-                        <tr>
-                            <td>#CW-00070</td>
-                            <td>Tyre Cleaning & Dressing</td>
-                            <td>2025-07-01</td>
-                            <td>Jay</td>
-                            <td><span class="dashboard__completed-style">Completed</span></td>
-                            <td>₹250</td>
+                            <td>2025-12-06</td>
+                            <td>12:20 PM</td>
+                            <td>Komal Wani</td>
+                            <td><span class="dashboard__confirmed-style">Confirmed</span></td>
+                            <td>
+                                <button class="dashboard__my-booking-btns">View</button>
+                                <button class="dashboard__my-booking-btns">Cancel</button>
+                            </td>
                         </tr>
                     </tbody>
+
                 </table>
             </div>
         </div>

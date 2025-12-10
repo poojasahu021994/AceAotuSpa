@@ -10,17 +10,17 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12 col-12">
-                            <div class="main-slider__content">
-                                <h4 class="main-slider__sub-title">Shine That Stands Out</h4>
+                        <div class="col-lg-6 col-md-12 col-12 ">
+                            <div class="main-slider__content sec-title-animation animation-style1">
+                                <h4 class="main-slider__sub-title title-animation">Shine That Stands Out</h4>
 
-                                <h2 class="main-slider__title">
+                                <h2 class="main-slider__title title-animation">
                                     Smart Car & Bike Wash <br>
                                     Services for a Fresh <br>
                                     <span>Daily Shine</span>
                                 </h2>
 
-                                <p class="main-slider__text">
+                                <p class="main-slider__text title-animation">
                                     High-pressure wash, foam treatment, polishing & more — <br>
                                     crafted for a luxury shine.
                                 </p>
@@ -28,15 +28,15 @@
 
                                     <div class="row text-center gap-lg-0 gap-4">
 
-                                        <div class="col-md-6">
-                                            <div class="stats-box px-5  py-2 shadow-sm rounded bg-light">
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="stats-box px-4  py-2 shadow-sm rounded bg-light">
                                                 <h2 class="fw-bold">250+</h2>
                                                 <p class="mb-0">Vehicles Serviced</p>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-6">
-                                            <div class="stats-box px-5 py-2 shadow-sm rounded bg-light">
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="stats-box px-4 py-2 shadow-sm rounded bg-light">
                                                 <h2 class="fw-bold">60+</h2>
                                                 <p class="mb-0">Cities Available</p>
                                             </div>
@@ -208,7 +208,7 @@
 <!--Main Slider End-->
 
 <!-- download start -->
-<section class="team-one" id="team">
+<section class="team-one-1" id="team">
 
     <div class="container">
         <div class="section-title text-center sec-title-animation animation-style1">
@@ -248,6 +248,73 @@
     </div>
 </section>
 <!-- download end -->
+
+<!--Sliding Text Start-->
+<section class="sliding-text">
+    <div class="sliding-text__inner">
+        <div class="sliding-text__bg"
+            style="background-image: url(assets/images/backgrounds/sliding-text-bg.jpg);"></div>
+        <ul class="sliding-text__list marquee_mode-2 list-unstyled">
+            <li>
+                <div class="icon">
+                    <span class="icon-mechanical"></span>
+                </div>
+                <p>Premium Car Wash</p>
+            </li>
+
+            <li>
+                <div class="icon">
+                    <span class="icon-tire"></span>
+                </div>
+                <p>Bike Foam Wash</p>
+            </li>
+
+            <li>
+                <div class="icon">
+                    <span class="icon-diagnostic"></span>
+                </div>
+                <p>Interior Deep Cleaning</p>
+            </li>
+
+            <li>
+                <div class="icon">
+                    <span class="icon-tyre"></span>
+                </div>
+                <p>Wheel & Tyre Cleaning</p>
+            </li>
+
+            <li>
+                <div class="icon">
+                    <span class="icon-oil"></span>
+                </div>
+                <p>Engine Bay Cleaning</p>
+            </li>
+
+            <li>
+                <div class="icon">
+                    <span class="icon-battery"></span>
+                </div>
+                <p>Exterior Wax Polishing</p>
+            </li>
+
+            <li>
+                <div class="icon">
+                    <span class="icon-mechanical"></span>
+                </div>
+                <p>Underbody Wash</p>
+            </li>
+
+            <li>
+                <div class="icon">
+                    <span class="icon-tire"></span>
+                </div>
+                <p>Dashboard & Trim Dressing</p>
+            </li>
+        </ul>
+
+    </div>
+</section>
+<!--Sliding Text End-->
 
 <!-- Drive Stories START-->
 <section class="team-one" id="team">

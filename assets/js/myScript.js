@@ -265,3 +265,13 @@ overlay.addEventListener('click', () => {
     popup.style.display = 'none';
     overlay.style.display = 'none';
 });
+// thank you Popup
+
+function showPopup(e) {
+    if (e) e.preventDefault(); // prevents page refresh
+    document.getElementById("paymentPopup").style.display = "flex";
+}
+
+function closePopup() {
+    document.getElementById("paymentPopup").style.display = "none";
+}
