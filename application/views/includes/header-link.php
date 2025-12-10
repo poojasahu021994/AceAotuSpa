@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from dreamlayout.mnsithub.com/html/servixa/main-html/index-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Dec 2025 08:04:29 GMT -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Home One || Servixa || Servixa HTML 5 Template </title>
+    <title> Ace Auto Spa Website </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/favIcon-Carwash.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favIcon-Carwash.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favIcon-Carwash.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Servixa HTML 5 Template " />
+    <meta name="description" content="Ace Auto Spa offers premium car wash, foam wash, interior cleaning, and detailing services in Nashik. Give your car a fresh, showroom-like shine." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -42,4 +39,3 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
-
